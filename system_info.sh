@@ -20,10 +20,10 @@ printf "\n\n"
 printf "Average load:\n"
 cat /proc/loadavg 
 printf "\n\n"
-#статистику по оперативной памяти и подкачке
+#memory? what memory?
 printf "Memory:\n"
 free -h
 printf "\n\n"
-#дисках
+#disk space
 printf "Disks:\n"
 df -h
